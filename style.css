@@ -1,0 +1,469 @@
+/**
+  Theme Name: Colortype
+  Theme URI:  http://zihua.li/colortype
+  Version: 1.0
+  Author: Zihua Li
+  Author URI: http://zihua.li
+  Tags: clean, color, colortype, modern, personal, responsive, sample, team, theme, twitter, unlimited, widget
+  License: GNU General Public License v2.0
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Description: A clean and customizable theme. You can change  Social media theme options and responsive design for iphone and iPad.
+*/
+
+@charset "UTF-8";
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup,
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+
+
+/*	Typography presets
+	------------------	*/
+
+.gigantic {
+	font-size: 110px;
+	line-height: 120px;
+	letter-spacing: -2px;
+}
+
+.huge, h1 {
+	font-size: 30px;
+	line-height: 45px;
+	letter-spacing: -1px;
+}
+
+.large, h2 {
+	font-size: 24px;
+	line-height: 30px;
+  font-weight: normal;
+}
+
+.bigger, h3 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.big, h4 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+body {
+  font: 16px/24px Helvetica, Arial, Verdana, sans-serif;
+}
+
+.small, small {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+input, textarea {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 252px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  font-size: 16px;
+  color: #4b4b4b;
+}
+
+/* Selection colours (easy to forget) */
+
+img::selection {background: transparent;}
+img::-moz-selection {background: transparent;}
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/*		Default Layout: 992px.
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+html { background: #fff url(./images/bg.png) left top repeat; }
+
+body {
+  color: #4b4b4b;
+  -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+a { text-decoration: none;}
+
+#wrap { width: 992px; height: 100%; margin: 0 auto;}
+aside h1 {background: transparent url(./images/logo-bottom.png) center bottom no-repeat; padding-bottom: 40px;  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; width: 100%; text-align: center; }
+aside { float: left; padding: 40px 20px 0; width: 280px; font-size: 14px;}
+#main { float: right; width: 630px; border-left: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; background: #fcfcfc url(./images/main-bg.png) left top repeat; padding: 40px 20px;}
+
+.ie6 #main { overflow-x: hidden;}
+.ie6 aside { overflow-x: hidden;}
+
+/* Twitter */
+#twitter { background: transparent url(./images/twitter-hr.png) left bottom no-repeat; padding-bottom: 30px; margin-bottom: 30px;}
+.ie6 #twitter { background: none; border-bottom: 1px dashed #d2d2d2;}
+#twitter a { color: #000;}
+#twitter a:hover { text-decoration: none;}
+#twitter a:hover .nickname, #twitter a:hover .username { color: #00acee;}
+#twitter .nickname { font-weight: bold; }
+#twitter .username { background: transparent url(./images/twitter.png) right 3px no-repeat; padding: 0 25px 0 0;}
+#twitter .body { color: #bebebe;}
+
+/* Post */
+article { margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px dashed #d2d2d2;}
+.entry-header { position: relative; }
+.entry-header .date { position: absolute; left: 0; top: 0; width: 50px; height: 50px; text-align: center; -webkit-border-radius: 5px; border-radius: 5px; color: #fff;}
+.entry-header .date .day { margin-top: 3px; font-size: 24px;}
+.entry-header .title { padding-left: 60px; line-height: 28px; font-size: 28px; margin-bottom: 4px;}
+.entry-header .meta{ padding-left: 60px; line-height: 18px; font-size: 14px; color: #bebebe;}
+.entry-header .meta .icon { margin-left: 10px;}
+
+article .body { margin: 20px 0;}
+article .body img { max-width: 100%;}
+article .body p { margin-bottom: 20px;}
+article .body ul, article .body ol { list-style-position: inside; margin-bottom: 20px;}
+article .body blockquote { padding-left: 46px; background: transparent url(./images/blockquote.png) left 4px no-repeat; color: #bebebe; font-style: italic; }
+article .body h2, article .body h3 { font-weight: bold;}
+article .body h2 { line-height: 36px;}
+
+article .comment-num { margin-left: 10px; padding-left: 15px; background: transparent url(./images/comment.png) left 2px no-repeat;}
+
+article footer { position: relative;}
+.tags { width: 90%; }
+.tags a { float: left; margin: 0 5px 5px 0; padding: 4px 13px 4px 7px; line-height: 14px; color: #fff; font-size: 14px; background: #d2d2d2 url(./images/tag-right.png) right top no-repeat;}
+.tags a:hover { color: #eee; }
+.share { position: absolute; right: 0; top: 0; width: 80px;}
+.share a { display: block; padding: 2px; text-align: center; -webket-border-radius: 5px; border-radius: 5px; color: #fff;}
+
+#comments { border-top: 1px dashed #d2d2d2; padding-top: 30px; margin-top: 30px; }
+#comments h3 { font-size: 20px; font-weight: normal;border-bottom: 1px dashed #d2d2d2; margin: 10px 0; padding-bottom: 7px;}
+#comments textarea { height: 150px; width: 97%;}
+#comments tr { line-height: 40px;}
+
+#comments ol { list-style: none; }
+
+.commentlist { margin-top: 20px;}
+.commentlist li { margin: 10px 0 20px;}
+.commentlist .comment-body { min-height: 80px;}
+
+.commentlist ul { margin: 20px 0 0 0; list-style: none;}
+.comment-form-author { margin-top: 5px;}
+.commentlist .comment-author { position: relative; }
+.commentlist .comment-author cite { font-style: normal;}
+.commentlist .comment-author span { display: none;}
+.commentlist li {
+	margin: 0 0 18px 0;
+	padding: 15px;
+	background:#f6f6f6;
+	list-style:none
+}
+.commentlist .avatar {
+  position: absolute;
+  left: -65px;
+  top: 0;
+	border:1px solid #ddd;
+	background: #fff;
+}
+
+.bypostauthor {
+  border: 1px dashed #bebebe;
+}
+.gallery .gallery-caption {
+  color: #888;
+  font-size: 12px;
+  margin: 0 0 12px;
+}
+
+.sticky { /* todo */ }
+
+.reply { display: none; position: absolute; top: 65px; left: 15px; width: 50px; height: 30px;}
+
+ul.children {
+	margin-left: 0;
+}
+.comment { position: relative;}
+.comment-meta { position: absolute; right: 15px; top: 0; padding: 0 5px;
+-webkit-border-radius: 0px 0px 5px 5px;
+border-radius: 0px 0px 5px 5px;
+}
+.comment-meta a, .comment-meta a:hover { color: #fff; font-size: 12px;}
+.comment-body { padding-left: 65px;}
+.commentlist li.depth-2 {
+	border:none;
+	background:#fff;
+	border-top: 1px solid #f2f2f2;
+	margin-left:15px;
+}
+
+.commentlist li.depth-3	 {
+	border:none;
+	background:#f6f6f6;
+	margin-left:15px;
+}
+
+.commentlist li.depth-4	 {
+	border:none;
+	background:#fff;
+	margin-left:15px;
+}
+
+.commentlist li.depth-5	 {
+	border:none;
+	background:#f6f6f6;
+	margin-left:15px;
+}
+.commentlist code {
+	background:#e6e6e6;
+	padding:3px;
+}
+
+.commentlist .moderation {
+	margin-top: 10px;
+	color: #660000;
+}
+
+.comment-author {
+	margin-bottom: 6px;
+}
+
+.commentlist .children {
+	margin-top:15px;
+}
+
+.reply a { display: block; line-height: 14px;}
+.reply a:link, .reply a:visited  {
+	color:#fff;
+	padding: 0 8px;
+	text-align:center;
+	text-decoration:none !important;
+	text-transform: uppercase;
+	font-size:10px;
+}
+
+.comment-form-author, .comment-form-email, .comment-form-url, .comment-form-comment { position: relative; margin-bottom: 10px;}
+.comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-comment label { line-height: 34px;}
+.comment-form-author input, .comment-form-email input, .comment-form-url input {position: absolute; top: 0; left: 95px;}
+.comment-form-comment { padding-left: 95px;}
+.comment-form-comment label { position: absolute; left: 0;}
+.comment-notes, .form-allowed-tags { font-size: 12px; color: #bebebe;}
+.comment-notes { display: none;}
+.logged-in-as { margin-bottom: 10px;}
+aside { color: #4b4b4b; text-shadow: 1px 1px 1px #fff; }
+aside li { list-style: none;}
+aside h2 { font-size: 20px; font-weight: normal; text-align: center; border-bottom: 1px dashed #d2d2d2; padding-bottom: 7px; margin-bottom: 10px;}
+aside section { margin-top: 30px; padding: 15px; }
+/* About me */
+#aboutMe {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lte8 #aboutMe {
+  background: transparent url(./images/transparent-30.png) left top repeat;
+}
+
+#aboutMe .social { margin-top: 10px;}
+#aboutMe .social a { margin-right: 6px; }
+
+
+.widget_links { font-size: 12px;}
+.widget_links a {display: block; font-size: 14px;}
+.copyright { font-size: 12px;}
+.form-allowed-tags { margin-left: 95px;}
+/* search */
+.widget_search {width: 97%; margin-left: 0;}
+.widget_search #searchsubmit { display:none;}
+/* button */
+#submit { color: #fff; margin: 10px 95px;}
+input[type="submit"] { color: #fff;}
+
+/* page */
+.pagination-newer {
+  float: left;
+  width: 200px;
+}
+
+.pagination-older {
+float: right;
+text-align: right;
+width: 200px;
+}
+
+#posts {
+  margin-bottom: 20px;
+}
+
+.archive-title { width: 100%; text-align: center; line-height: 50px; margin-bottom:40px; border-radius: 5px; -webket-border-radius: 5px; color: #fff;}
+
+pre, code {
+	font-family: Monaco, MonacoRegular, "Courier New", Courier, monospace;
+  overflow-x: auto;
+  font-size: 12px;
+  line-height: 15px;
+}
+pre {
+	border: 1px solid #ddd;
+	border-left-width: 0.4em;
+	background: #fbfbfb;
+	padding: 10px;
+}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #wrap { width: 100%; padding: 0;}
+  aside { width: 25%; }
+  #aboutMe .avatar img { max-width: 100%;} 
+  #main { width: 64%; }
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+  body { width: 100%; overflow-x: hidden;}
+  #aboutMe .avatar { display: none;}
+  #wrap { width: 100%; padding:0; margin: 0; }
+  aside { float: none; width: 100%; padding: 0; margin: 0; }
+  #main { float: none; width: 100%; padding: 10px 0 0 0; margin: 0; }
+  #main article { margin: 10px 15px;}
+  #main article header h2 { font-size: 22px; line-height: 25px;}
+  #main #twitter { margin: 10px 15px 0; padding-bottom: 5px;}
+  aside section { display: none;}
+  aside h1 { margin: 20px 0;}
+  #aboutMe { display: none;}
+  aside .copyright { display: none;}
+  .widget_search { display: none;}
+  #twitter { background: none; border-bottom: 1px dashed #d2d2d2;}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
