@@ -2,6 +2,8 @@ Colortype - Responsive Wordpress Theme
 
 <img src="http://zihua.li/wp-content/uploads/2012/08/preview.png" />
 
+[Demo][]
+
 ### WP3 .4 Compatible
 
 **Colortype** is a clean and minimal Wordpress theme especially for
@@ -38,4 +40,5 @@ The first version. :)
 
   [brandico]: https://github.com/fontello/brandico.font
   [colortype.wordpress@zihua.li]: mailto:colortype.wordpress@zihua.li
+  [Demo]: http://zihua.li/themes/
 
