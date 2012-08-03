@@ -1,4 +1,6 @@
-Colortype - Responsive Wordpress Theme —
+Colortype - Responsive Wordpress Theme
+
+<img src="http://zihua.li/wp-content/uploads/2012/08/preview.png" />
 
 ### WP3 .4 Compatible
 
@@ -23,6 +25,10 @@ widget, social service icons, avatar and a twitter widget.
 ### Assets Used
 
 Social services icons(rss, github, facebook, google plus): [brandico][]
+
+### Twitter API代理
+
+可以通过主题设置中的Custom Twitter API中设置代理以保证中国大陆用户可以正常看到博客中显示的Tweet.
 
 ### Update List
 
