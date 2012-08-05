@@ -295,9 +295,7 @@ border-radius: 0px 0px 5px 5px;
 .comment-meta a, .comment-meta a:hover { color: #fff; font-size: 12px;}
 .comment-body { padding-left: 65px;}
 .commentlist li.depth-2 {
-	border:none;
 	background:#fff;
-	border-top: 1px solid #f2f2f2;
 	margin-left:15px;
 }
 
