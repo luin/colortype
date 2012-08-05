@@ -219,7 +219,7 @@ article { margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px dashed #
 .entry-header { position: relative; }
 .entry-header .date { position: absolute; left: 0; top: 0; width: 50px; height: 50px; text-align: center; -webkit-border-radius: 5px; border-radius: 5px; color: #fff;}
 .entry-header .date .day { margin-top: 3px; font-size: 24px;}
-.entry-header .title { padding-left: 60px; line-height: 28px; font-size: 28px; margin-bottom: 4px;}
+.entry-header .title { padding-left: 60px; line-height: 28px; font-size: 28px; margin-bottom: 4px; word-wrap: break-word;}
 .entry-header .meta{ padding-left: 60px; line-height: 18px; font-size: 14px; color: #bebebe;}
 .entry-header .meta .icon { margin-left: 10px;}
 
