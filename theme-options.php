@@ -70,6 +70,11 @@ function theme_options_do_page() {
           </td>
         </tr>
         <tr><td colspan="2" style="color: #999;">These options will let you setup the social icons at the bottom of the 'About me' section in the sidebar. <br />You can enter the URLs of your profiles to have the icons show up.</td></tr>
+        <tr valign="top"><th scope="row">Use gray icons</th>
+          <td>
+            <input id="colortype_theme_options[gray-icon]" name="colortype_theme_options[gray-icon]" type="checkbox" value="1" <?php checked( '1', $options['gray-icon'] ); ?> />
+          </td>
+        </tr>
         <tr valign="top"><th scope="row">Twitter username</th>
           <td>
             <input type="text" id="colortype_theme_options[twitter]" name="colortype_theme_options[twitter]" value="<?php esc_attr_e($options['twitter']); ?>" />
