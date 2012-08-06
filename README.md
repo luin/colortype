@@ -27,7 +27,6 @@ widget, social service icons, avatar and a twitter widget.
 ### Assets Used
 
 All the social services icons (exclude github): [Veodesign.com][]
-Social services icons(rss, github, facebook, google plus): [brandico][]
 
 ### Twitter API代理
 
