@@ -26,6 +26,7 @@ widget, social service icons, avatar and a twitter widget.
 
 ### Assets Used
 
+All the social services icons (exclude github): [Veodesign.com][]
 Social services icons(rss, github, facebook, google plus): [brandico][]
 
 ### Twitter API代理
@@ -38,7 +39,7 @@ Social services icons(rss, github, facebook, google plus): [brandico][]
 
 The first version. :)
 
-  [brandico]: https://github.com/fontello/brandico.font
+  [Veodesign.com]: http://veodesign.com/
   [colortype.wordpress@zihua.li]: mailto:colortype.wordpress@zihua.li
   [Demo]: http://zihua.li/themes/
 
