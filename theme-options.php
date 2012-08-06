@@ -69,7 +69,7 @@ function theme_options_do_page() {
           <textarea style="width: 300px; height: 80px;" name="colortype_theme_options[bio]" id="colortype_theme_options[bio]"><?php esc_attr_e($options['bio']); ?></textarea>
           </td>
         </tr>
-        <tr><td colspan="2" style="color: #999;">These options will let you setup the five social icons at the bottom of the 'About me' section in the sidebar. <br />You can enter the URLs of your profiles to have the icons show up.</td></tr>
+        <tr><td colspan="2" style="color: #999;">These options will let you setup the social icons at the bottom of the 'About me' section in the sidebar. <br />You can enter the URLs of your profiles to have the icons show up.</td></tr>
         <tr valign="top"><th scope="row">Twitter username</th>
           <td>
             <input type="text" id="colortype_theme_options[twitter]" name="colortype_theme_options[twitter]" value="<?php esc_attr_e($options['twitter']); ?>" />
@@ -77,11 +77,6 @@ function theme_options_do_page() {
               <span> &nbsp;Hide last tweet: </span>
               <input id="colortype_theme_options[showlasttweet]" name="colortype_theme_options[showlasttweet]" type="checkbox" value="1" <?php checked( '1', $options['showlasttweet'] ); ?> />
             </div>
-          </td>
-        </tr>
-        <tr valign="top"><th scope="row">Github username</th>
-          <td>
-            <input type="text" id="colortype_theme_options[github]" name="colortype_theme_options[github]" value="<?php esc_attr_e($options['github']); ?>" />
           </td>
         </tr>
         <tr valign="top"><th scope="row">Facebook username</th>
@@ -92,6 +87,21 @@ function theme_options_do_page() {
         <tr valign="top"><th scope="row">Google+ ID</th>
           <td>
             <input type="text" id="colortype_theme_options[google]" name="colortype_theme_options[google]" value="<?php esc_attr_e($options['google']); ?>" />
+          </td>
+        </tr>
+        <tr valign="top"><th scope="row">Flickr username</th>
+          <td>
+            <input type="text" id="colortype_theme_options[flickr]" name="colortype_theme_options[flickr]" value="<?php esc_attr_e($options['flickr']); ?>" />
+          </td>
+        </tr>
+        <tr valign="top"><th scope="row">Github username</th>
+          <td>
+            <input type="text" id="colortype_theme_options[github]" name="colortype_theme_options[github]" value="<?php esc_attr_e($options['github']); ?>" />
+          </td>
+        </tr>
+        <tr valign="top"><th scope="row">Dribbble username</th>
+          <td>
+            <input type="text" id="colortype_theme_options[dribbble]" name="colortype_theme_options[dribbble]" value="<?php esc_attr_e($options['dribbble']); ?>" />
           </td>
         </tr>
         <tr valign="top"><th scope="row">Hide RSS icon</th>
