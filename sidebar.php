@@ -42,6 +42,6 @@
     <?php endif; // end primary widget area ?>
   <div style="clear: both"></div>
   <section class="copyright">
-  <p>© 2012 <strong><?php bloginfo('name'); ?></strong><br />Powered by <a target="_blank" href="http://wordpress.org">Wordpress</a> & <a target="_blank" href="http://zihua.li/colortype">Colortype</a></p>
+  <p>© 2012 <strong><?php bloginfo('name'); ?></strong><br />Powered by <a target="_blank" href="http://wordpress.org">WordPress</a> & <a target="_blank" href="http://zihua.li/colortype">Colortype</a></p>
   </section>
 </aside>
