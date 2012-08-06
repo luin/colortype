@@ -1,4 +1,4 @@
-Colortype - Responsive Wordpress Theme
+Colortype - Responsive WordPress Theme
 
 <img src="http://zihua.li/wp-content/uploads/2012/08/preview.png" />
 
@@ -6,7 +6,7 @@ Colortype - Responsive Wordpress Theme
 
 ### WP3 .4 Compatible
 
-**Colortype** is a clean and minimal Wordpress theme especially for
+**Colortype** is a clean and minimal WordPress theme especially for
 personal use. It has a responsive ability. Moreover, it comes with tons
 of features. Including theme options, unlimited color, ‘about me’
 widget, social service icons, avatar and a twitter widget.
