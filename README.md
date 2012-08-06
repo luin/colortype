@@ -40,6 +40,6 @@ Social services icons(rss, github, facebook, google plus): [brandico][]
 The first version. :)
 
   [Veodesign.com]: http://veodesign.com/
-  [colortype.wordpress@zihua.li]: mailto:colortype.wordpress@zihua.li
+  [colortype.wordpress@zihua.li]: mailto:i@zihua.li
   [Demo]: http://zihua.li/themes/
 

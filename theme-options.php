@@ -129,7 +129,7 @@ function theme_options_do_page() {
     </form>
     <h2 style="margin-top: 50px">Get support</h2>
     <p>Colortype homepage: <a target="_blank" href="http://zihua.li/colortype">http://zihua.li/colortype</a></p>
-    <p>Feel free to contact me via email <a href="mailto:colortype.wordpress@zihua.li">colortype.wordpress@zihua.li</a> if you have any questions or suggestions about this theme.</p>
+    <p>Feel free to contact me via email <a href="mailto:i@zihua.li">i@zihua.li</a> if you have any questions or suggestions about this theme.</p>
   </div>
   <?php
   }
