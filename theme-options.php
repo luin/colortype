@@ -126,6 +126,12 @@ function theme_options_do_page() {
           <textarea style="width: 300px; height: 80px;" name="colortype_theme_options[css]" id="colortype_theme_options[css]"><?php esc_attr_e($options['css']); ?></textarea>
           </td>
         </tr>
+        <tr><td colspan="2" style="color: #999;">The following code will be appended before &lt;/body&gt;.<br />You can insert the Google Analytics code here.</td></tr>
+        <tr valign="top"><th scope="row">Custom Footer</th>
+          <td>
+          <textarea style="width: 300px; height: 80px;" name="colortype_theme_options[footer]" id="colortype_theme_options[footer]"><?php esc_attr_e($options['footer']); ?></textarea>
+          </td>
+        </tr>
         <tr valign="top"><th scope="row"><input type="submit" class="button-primary" value="<?php _e( 'Save Options', 'colortypetheme' ); ?>" /></th>
           <td>
           </td>
