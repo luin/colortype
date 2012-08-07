@@ -22,7 +22,7 @@ widget, social service icons, avatar and a twitter widget.
 -   Socialize icons
 -   Support wp\_pagenavi
 -   Documentation files: txt
--   Support all the major browsers including IE 6 & IE 7
+-   Support all the major browsers including IE 7
 
 ### Assets Used
 

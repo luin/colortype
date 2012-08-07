@@ -225,7 +225,6 @@ article { margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px dashed #
 
 article .body { margin: 20px 0;}
 article .body img { max-width: 100%; width: auto; height: auto;}
-article .body img.size-full, article .body img.size-large { max-width: 100%; width: auto; height: auto;}
 article .body p { margin-bottom: 20px;}
 article .body ul, article .body ol { list-style-position: inside; margin-bottom: 20px;}
 article .body blockquote { padding-left: 46px; background: transparent url(./images/blockquote.png) left 4px no-repeat; color: #bebebe; font-style: italic; }
