@@ -196,16 +196,16 @@ body {
 
 a { text-decoration: none;}
 
-#wrap { width: 992px; height: 100%; margin: 0 auto;}
+#wrap { width: 992px; margin: 0 auto; }
 aside h1 {background: transparent url(./images/logo-bottom.png) center bottom no-repeat; padding-bottom: 40px;  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; width: 100%; text-align: center; }
-aside { float: left; padding: 40px 20px 0; width: 280px; font-size: 14px;}
-#main { float: left; width: 630px; border-left: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; background: #fcfcfc url(./images/main-bg.gif) left top repeat; padding: 40px 20px;}
+aside { float: left; padding: 40px 0 0 20px; width: 280px; font-size: 14px;}
+#main { float: right; width: 630px; border-left: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; background: #fcfcfc url(./images/main-bg.gif) left top repeat; padding: 40px 20px;}
 
 .ie6 #main { overflow-x: hidden;}
 .ie6 aside { overflow-x: hidden;}
 
 /* Twitter */
-#twitter { background: transparent url(./images/twitter-hr.png) left bottom no-repeat; padding-bottom: 30px; margin-bottom: 30px;}
+#twitter { background: transparent url(./images/twitter-hr.png) center bottom no-repeat; padding-bottom: 30px; margin-bottom: 30px;}
 .ie6 #twitter { background: none; border-bottom: 1px dashed #d2d2d2;}
 #twitter a { color: #000;}
 #twitter a:hover { text-decoration: none;}
@@ -421,7 +421,7 @@ px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #wrap { width: 100%; padding: 0;}
   aside { width: 25%; }
-  #aboutMe .avatar img { max-width: 100%;} 
+  #aboutMe .avatar img { max-width: 100%;}
   #main { width: 64%; }
 
 }
@@ -437,11 +437,10 @@ cols    1     2      3
 px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
-  body { width: 100%; overflow-x: hidden;}
-  #aboutMe .avatar { display: none;}
+  body { width: 100%;}
   #wrap { width: 100%; padding:0; margin: 0; }
   aside { float: none; width: 100%; padding: 0; margin: 0; }
-  #main { float: none; width: 100%; padding: 10px 0 0 0; margin: 0; }
+  #main { float: none; width: 100%; padding: 10px 0 0 0; margin: 0; border: none; }
   #main article { margin: 10px 15px;}
   #main article header h2 { font-size: 22px; line-height: 25px;}
   #main #twitter { margin: 10px 15px 0; padding-bottom: 5px;}
