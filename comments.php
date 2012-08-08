@@ -23,6 +23,7 @@
     <div class="navigation">
       <div class="alignleft"><?php previous_comments_link() ?></div>
       <div class="alignright"><?php next_comments_link() ?></div>
+      <div style="clear:both"></div>
     </div>
    <?php else : // this is displayed if there are no comments so far ?>
 
