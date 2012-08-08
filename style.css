@@ -224,6 +224,10 @@ article { margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px dashed #
 .entry-header .meta .icon { margin-left: 10px;}
 
 article .body { margin: 20px 0; font-size: 14px;}
+article .body h2 { font-size: 16px;}
+article .body h3 { font-size: 14px;}
+article .body h4 { font-size: 14px;}
+article .body h5 { font-size: 14px;}
 article .body img { max-width: 98%; width: auto; height: auto;}
 article .body p, article .body pre { margin-bottom: 20px;}
 article .body ul, article .body ol { list-style-position: inside; margin-bottom: 20px;}
@@ -251,7 +255,8 @@ article footer { position: relative;}
 .commentlist { margin-top: 20px;}
 .commentlist li { margin: 10px 0 20px;}
 .commentlist .comment-body { min-height: 80px;}
-
+.comment-body { font-size: 14px;}
+.comment-author { font-size: 16px;}
 .commentlist ul { margin: 20px 0 0 0; list-style: none;}
 .comment-form-author { margin-top: 5px;}
 .commentlist .comment-author { position: relative; }
