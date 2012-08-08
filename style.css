@@ -224,7 +224,7 @@ article { margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px dashed #
 .entry-header .meta .icon { margin-left: 10px;}
 
 article .body { margin: 20px 0;}
-article .body img { max-width: 100%; width: auto; height: auto;}
+article .body img { max-width: 98%; width: auto; height: auto;}
 article .body p { margin-bottom: 20px;}
 article .body ul, article .body ol { list-style-position: inside; margin-bottom: 20px;}
 article .body blockquote { padding-left: 46px; background: transparent url(./images/blockquote.png) left 4px no-repeat; color: #bebebe; font-style: italic; }
@@ -356,6 +356,15 @@ aside { color: #4b4b4b; text-shadow: 1px 1px 1px #fff; }
 aside li { list-style: none;}
 aside h2 { font-size: 20px; font-weight: normal; text-align: center; border-bottom: 1px dashed #d2d2d2; padding-bottom: 7px; margin-bottom: 10px;}
 aside section { margin-top: 30px; padding: 15px; }
+
+#aboutMe ul{
+  margin: 5px 0 0;
+  border-top: 1px dashed #d2d2d2;
+  padding: 15px 0 0;
+}
+
+#aboutMe ul li { display: block; float: left; border-radius: 5px; margin-right: 5px; margin-bottom: 10px;}
+#aboutMe ul li a { background-color:#2B96C4; border-radius: 5px; line-height: 25px; padding: 5px; color: #fff; text-shadow: none; }
 /* About me */
 #aboutMe {
   background-color: rgba(255, 255, 255, 0.3);
