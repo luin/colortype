@@ -242,7 +242,7 @@ article footer { position: relative;}
 
 #comments { border-top: 1px dashed #d2d2d2; padding-top: 30px; margin-top: 30px; }
 #comments h3 { font-size: 24px; font-weight: normal; margin: 10px 0 0; padding-bottom: 7px;}
-#comments .subscribe-to-comments { margin: 0 95px;}
+#comments .subscribe-to-comments { margin: 0 0 0 95px;}
 #comments textarea { height: 150px; width: 97%;}
 #comments tr { line-height: 40px;}
 
@@ -377,7 +377,7 @@ aside section { margin-top: 30px; padding: 15px; }
 .widget_search {width: 97%; margin-left: 0;}
 .widget_search #searchsubmit { display:none;}
 /* button */
-#submit { color: #fff; margin: 10px 95px;}
+#submit { color: #fff; margin: 10px 0 0 95px;}
 input[type="submit"] { color: #fff;}
 
 /* page */
@@ -450,6 +450,9 @@ px      68    160    252    */
   aside .copyright { display: none;}
   .widget_search { display: none;}
   #twitter { background: none; border-bottom: 1px dashed #d2d2d2;}
+  #comments input { width: 170px; }
+  #comments textarea { width: 170px;}
+  .form-allowed-tags { display: none;}
 }
 
 
@@ -463,5 +466,7 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  #comments input { width: 230px; }
+  #comments textarea { width: 97%;}
 }
 
