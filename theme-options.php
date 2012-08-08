@@ -58,7 +58,7 @@ function theme_options_do_page() {
             <input id="colortype_theme_options[about-me]" name="colortype_theme_options[about-me]" type="checkbox" value="1" <?php checked( '1', $options['about-me'] ); ?> />
           </td>
         </tr>
-        <tr><td colspan="2" style="color: #999;">You can upload an image via "<a href="<?php bloginfo('wpurl'); ?>/wp-admin/media-new.php">Upload New Media</a>" and copy the image url to the left input box.<br />The optimum width of the avatar is 250px.</td></tr>
+        <tr><td colspan="2" style="color: #999;">You can upload an image via "<a href="<?php bloginfo('wpurl'); ?>/wp-admin/media-new.php">Upload New Media</a>" and copy the image url to the input box.<br />The optimum width of the avatar is 250px.</td></tr>
         <tr valign="top"><th scope="row">Avatar url</th>
           <td>
             <input type="text" class="regular-text" id="colortype_theme_options[avatar]" name="colortype_theme_options[avatar]" value="<?php esc_attr_e($options['avatar']); ?>" />
@@ -69,7 +69,7 @@ function theme_options_do_page() {
           <textarea style="width: 300px; height: 80px;" name="colortype_theme_options[bio]" id="colortype_theme_options[bio]"><?php esc_attr_e($options['bio']); ?></textarea>
           </td>
         </tr>
-        <tr><td colspan="2" style="color: #999;">These options will let you setup the social icons at the bottom of the 'About me' section in the sidebar. <br />You can enter the URLs of your profiles to have the icons show up.</td></tr>
+        <tr><td colspan="2" style="color: #999;">These options will let you setup the social icons at the bottom of the 'About me' section in the sidebar. <br />You can enter the username of your profiles to have the icons show up.</td></tr>
         <tr valign="top"><th scope="row">Use gray icons</th>
           <td>
             <input id="colortype_theme_options[gray-icon]" name="colortype_theme_options[gray-icon]" type="checkbox" value="1" <?php checked( '1', $options['gray-icon'] ); ?> />
