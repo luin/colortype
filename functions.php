@@ -3,16 +3,17 @@
 // Load up our awesome theme options
 require_once ( get_stylesheet_directory() . '/theme-options.php' );
 
-function darkenColour($color, $diff=20){
-    $i = hexdec($color);
-    $rgb['r'] = 0xFF & ($i >> 0x10);
-    $rgb['g'] = 0xFF & ($i >> 0x8);
-    $rgb['b'] = 0xFF & $i;
-    $hex = "#";
-    foreach($rgb as $v) {
-        $hex .= ($v <= $diff) ? '00' : dechex($v-$diff);
+function darkenColour($color){
+    $dif = 20;
+    $color = str_replace('#', '', $color);
+    if (strlen($color) != 6){ return '000000'; }
+    $rgb = '';
+    for ($x=0;$x<3;$x++){
+        $c = hexdec(substr($color,(2*$x),2)) - $dif;
+        $c = ($c < 0) ? 0 : dechex($c);
+        $rgb .= (strlen($c) < 2) ? '0'.$c : $c;
     }
-    return $hex;
+    return '#'.$rgb;
 }
 
 register_sidebar( array(
