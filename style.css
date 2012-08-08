@@ -223,7 +223,7 @@ article { margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px dashed #
 .entry-header .meta{ padding-left: 60px; line-height: 18px; font-size: 14px; color: #bebebe;}
 .entry-header .meta .icon { margin-left: 10px;}
 
-article .body { margin: 20px 0;}
+article .body { margin: 20px 0; font-size: 14px;}
 article .body img { max-width: 98%; width: auto; height: auto;}
 article .body p, article .body pre { margin-bottom: 20px;}
 article .body ul, article .body ol { list-style-position: inside; margin-bottom: 20px;}
