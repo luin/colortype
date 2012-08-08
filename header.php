@@ -34,7 +34,7 @@
       <![endif]-->
       <link rel="stylesheet" media="all" href="<?php bloginfo('stylesheet_url') ?>"/>
       <link rel="pingback" href="<?php bloginfo('pingback_url') ?>" />
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
       <script src="<?php echo get_bloginfo( 'template_directory') . '/scripts/jquery.js' ?>"></script>
       <!--[if lt IE 9]>
         <script src="<?php echo get_bloginfo( 'template_directory') . '/scripts/jquery.corner.js' ?>"></script>
