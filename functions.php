@@ -40,5 +40,6 @@ if ( ! function_exists( 'colortype_setup' ) ) {
   function colortype_setup () {
     // Add default posts and comments RSS feed links to <head>.
     add_theme_support( 'automatic-feed-links' );
+    register_nav_menu( 'primary', 'Sidebar Menu');
   }
 }

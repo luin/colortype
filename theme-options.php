@@ -58,6 +58,11 @@ function theme_options_do_page() {
             <input id="colortype_theme_options[about-me]" name="colortype_theme_options[about-me]" type="checkbox" value="1" <?php checked( '1', $options['about-me'] ); ?> />
           </td>
         </tr>
+        <tr valign="top"><th scope="row">Hide Sidebar menu</th>
+          <td>
+            <input id="colortype_theme_options[menu]" name="colortype_theme_options[menu]" type="checkbox" value="1" <?php checked( '1', $options['menu'] ); ?> />
+          </td>
+        </tr>
         <tr><td colspan="2" style="color: #999;">You can upload an image via "<a href="<?php bloginfo('wpurl'); ?>/wp-admin/media-new.php">Upload New Media</a>" and copy the image url to the input box.<br />The optimum width of the avatar is 250px.</td></tr>
         <tr valign="top"><th scope="row">Avatar url</th>
           <td>
