@@ -199,7 +199,7 @@ a { text-decoration: none;}
 #wrap { width: 992px; margin: 0 auto; }
 aside h1 {background: transparent url(./images/logo-bottom.png) center bottom no-repeat; padding-bottom: 40px;  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; width: 100%; text-align: center; }
 aside { float: left; padding: 40px 0 0 20px; width: 280px; font-size: 14px;}
-aside section img { max-width: 250px; width: auto; height: auto;}
+aside section img { max-width: 250px; height: auto;}
 #main { float: right; width: 630px; border-left: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; background: #fcfcfc url(./images/main-bg.gif) left top repeat; padding: 40px 20px;}
 
 .ie6 #main { overflow-x: hidden;}
