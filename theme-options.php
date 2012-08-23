@@ -114,6 +114,26 @@ function theme_options_do_page() {
             <input type="text" id="colortype_theme_options[dribbble]" name="colortype_theme_options[dribbble]" value="<?php esc_attr_e($options['dribbble']); ?>" />
           </td>
         </tr>
+        <tr valign="top"><th scope="row">Jiepang username</th>
+          <td>
+            <input type="text" id="colortype_theme_options[jiepang]" name="colortype_theme_options[jiepang]" value="<?php esc_attr_e($options['jiepang']); ?>" />
+          </td>
+        </tr>
+        <tr valign="top"><th scope="row">Fanfou username</th>
+          <td>
+            <input type="text" id="colortype_theme_options[fanfou]" name="colortype_theme_options[fanfou]" value="<?php esc_attr_e($options['fanfou']); ?>" />
+          </td>
+        </tr>
+        <tr valign="top"><th scope="row">Weibo username</th>
+          <td>
+            <input type="text" id="colortype_theme_options[weibo]" name="colortype_theme_options[weibo]" value="<?php esc_attr_e($options['weibo']); ?>" />
+          </td>
+        </tr>
+        <tr valign="top"><th scope="row">Douban username</th>
+          <td>
+            <input type="text" id="colortype_theme_options[douban]" name="colortype_theme_options[douban]" value="<?php esc_attr_e($options['douban']); ?>" />
+          </td>
+        </tr>
         <tr valign="top"><th scope="row">Hide RSS icon</th>
           <td>
             <input id="colortype_theme_options[rss]" name="colortype_theme_options[rss]" type="checkbox" value="1" <?php checked( '1', $options['rss'] ); ?> />

@@ -30,6 +30,18 @@
         <?php if ($options['dribbble']) :?>
           <a target="_blank" href="http://dribbble.com/<?php echo $options['dribbble']; ?>"><img src="<?php echo get_bloginfo( 'template_directory') . "/images/icons/{$dir}/dribbble.png" ?>" width="32" height="32" /></a>
         <?php endif; ?>
+        <?php if ($options['jiepang']) :?>
+          <a target="_blank" href="http://jiepang.com/<?php echo $options['jiepang']; ?>"><img src="<?php echo get_bloginfo( 'template_directory') . "/images/icons/{$dir}/jiepang.png" ?>" width="32" height="32" /></a>
+        <?php endif; ?>
+        <?php if ($options['fanfou']) :?>
+          <a target="_blank" href="http://fanfou.com/<?php echo $options['fanfou']; ?>"><img src="<?php echo get_bloginfo( 'template_directory') . "/images/icons/{$dir}/fanfou.png" ?>" width="32" height="32" /></a>
+        <?php endif; ?>
+        <?php if ($options['douban']) :?>
+          <a target="_blank" href="http://www.douban.com/people/<?php echo $options['douban']; ?>"><img src="<?php echo get_bloginfo( 'template_directory') . "/images/icons/{$dir}/douban.png" ?>" width="32" height="32" /></a>
+        <?php endif; ?>
+        <?php if ($options['weibo']) :?>
+          <a target="_blank" href="http://weibo.com/<?php echo $options['weibo']; ?>"><img src="<?php echo get_bloginfo( 'template_directory') . "/images/icons/{$dir}/weibo.png" ?>" width="32" height="32" /></a>
+        <?php endif; ?>
       <div style="clear: both"></div>
       <?php if (!$options['menu']): ?>
         <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>

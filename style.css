@@ -232,7 +232,7 @@ article .body h5 { font-size: 14px;}
 article .body img { max-width: 98%; width: auto; height: auto;}
 article .body p, article .body pre { margin-bottom: 20px;}
 article .body ul, article .body ol { list-style-position: inside; margin-bottom: 20px;}
-article .body blockquote { padding-left: 46px; background: transparent url(./images/blockquote.png) left 4px no-repeat; color: #bebebe; font-style: italic; }
+article .body blockquote { padding-left: 46px; background: transparent url(./images/blockquote.png) left 4px no-repeat; font-style: italic; }
 article .body h2, article .body h3 { font-weight: bold;}
 article .body h2 { line-height: 36px;}
 
