@@ -114,9 +114,9 @@ function theme_options_do_page() {
             <input type="text" id="colortype_theme_options[dribbble]" name="colortype_theme_options[dribbble]" value="<?php esc_attr_e($options['dribbble']); ?>" />
           </td>
         </tr>
-        <tr valign="top"><th scope="row">Jiepang username</th>
+        <tr valign="top"><th scope="row">Jiepang URL</th>
           <td>
-            <input type="text" id="colortype_theme_options[jiepang]" name="colortype_theme_options[jiepang]" value="<?php esc_attr_e($options['jiepang']); ?>" />
+            http://jiepang.com/<input type="text" id="colortype_theme_options[jiepang]" name="colortype_theme_options[jiepang]" value="<?php esc_attr_e($options['jiepang']); ?>" />
           </td>
         </tr>
         <tr valign="top"><th scope="row">Fanfou username</th>
