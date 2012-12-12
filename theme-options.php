@@ -142,7 +142,7 @@ function theme_options_do_page() {
         <tr><td colspan="2" style="color: #999;">The custom api url should have a same result as the default api</td></tr>
         <tr valign="top"><th scope="row">Custom Twitter API</th>
           <td>
-            <input type="text" class="regular-text" id="colortype_theme_options[twitterapi]" name="colortype_theme_options[twitterapi]" value="<?php esc_attr_e($options['twitterapi'] ? $options['twitterapi'] : 'http://twitter.com/statuses/user_timeline/{%username%}.json?count=1&callback=?'); ?>" />
+            <input type="text" class="regular-text" id="colortype_theme_options[twitterapi]" name="colortype_theme_options[twitterapi]" value="<?php esc_attr_e($options['twitterapi'] ? $options['twitterapi'] : 'http://api.twitter.com/1/statuses/user_timeline/{%username%}.json?count=1&callback=?'); ?>" />
           </td>
         </tr>
         <tr><td colspan="2" style="color: #999;">You can enter your custom CSS to override the default CSS.</td></tr>

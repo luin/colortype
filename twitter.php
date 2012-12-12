@@ -2,7 +2,7 @@
 <?php if (!$options['showlasttweet'] && $options['twitter']) : ?>
 <?php
   if (!$options['twitterapi']) {
-    $options['twitterapi'] = 'http://twitter.com/statuses/user_timeline/{%username%}.json?count=1&callback=?';
+    $options['twitterapi'] = 'http://api.twitter.com/1/statuses/user_timeline/{%username%}.json?count=1&callback=?';
   }
 ?>
 <div id="twitter">
