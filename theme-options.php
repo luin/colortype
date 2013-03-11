@@ -157,6 +157,11 @@ function theme_options_do_page() {
           <textarea style="width: 300px; height: 80px;" name="colortype_theme_options[footer]" id="colortype_theme_options[footer]"><?php esc_attr_e($options['footer']); ?></textarea>
           </td>
         </tr>
+        <tr valign="top"><th scope="row">Custom Header</th>
+          <td>
+          <textarea style="width: 300px; height: 80px;" name="colortype_theme_options[header]" id="colortype_theme_options[header]"><?php esc_attr_e($options['header']); ?></textarea>
+          </td>
+        </tr>
         <tr valign="top"><th scope="row"><input type="submit" class="button-primary" value="<?php _e( 'Save Options', 'colortypetheme' ); ?>" /></th>
           <td>
           </td>
