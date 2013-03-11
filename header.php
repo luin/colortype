@@ -44,6 +44,8 @@
       <![endif]-->
       <?php wp_head() ?>
       <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ) ?>
+      <?php $options = get_option('colortype_theme_options'); ?>
+      <?php if ($options['header']) echo $options['header']; ?>
   </head>
     <body <?php body_class() ?>>
     <style>
