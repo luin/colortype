@@ -59,7 +59,7 @@
       .comment-meta { background-color: <?php echo $options['maincolor']; ?>}
       input, textarea { outline-color: <?php echo $options['maincolor'] ?>}
       .archive-title {border: 3px solid <?php echo $options['maincolor'] ?>; color: <?php echo $options['maincolor'] ?>}
-      #submit, input[type="submit"] { background-color: <?php echo $options['maincolor'] ?>}
+      #submit, input[type="submit"] { background-color: <?php echo $options['maincolor'] ?>; font-family: Helvetica, Arial, Verdana, sans-serif;}
       #aboutMe ul li a { background-color: <?php echo $options['maincolor'] ?>;}
       #aboutMe ul li a:hover { background-color: <?php echo darkenColour($options['maincolor']) ?>;}
       <?php if ($options['css']) echo $options['css']; ?>
